@@ -1,0 +1,29 @@
+nl:
+  refinery:
+    plugins:
+      basics:
+        title: Basics
+    basics:
+      admin:
+        basics:
+          actions:
+            create_new: Nieuwe Basic toevoegen
+            reorder: De volgorde van de Basics wijzigen
+            reorder_done: Klaar met het wijzingen van de van de Basic-volgorde
+          records:
+            title: Basics
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Basics. Druk op 'Nieuwe Basic toevoegen' om de eerste toe te voegen.
+          basic:
+            view_live_html: Deze basic op de website bekijken <br/><em>(opent in een nieuw venster)</em>
+            edit: Bewerk deze basic
+            delete: Deze basic definitief verwijderen
+      basics:
+        show:
+          other: Andere Basics
+  activerecord:
+    attributes:
+      'refinery/basics/basic':
+        name: Name
+        location: Location
+        content: Content

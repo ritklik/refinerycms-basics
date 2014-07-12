@@ -1,0 +1,29 @@
+sk:
+  refinery:
+    plugins:
+      basics:
+        title: Basics
+    basics:
+      admin:
+        basics:
+          actions:
+            create_new: Pridať Basic
+            reorder: Preusporiadať Basics
+            reorder_done: Koniec radenia Basics
+          records:
+            title: Basics
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Basics. Kliknite na "Pridať Basic" pre pridanie prvého basic.
+          basic:
+            view_live_html: Zobraziť náhľad basic<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť basic
+            delete: Zmazať basic
+      basics:
+        show:
+          other: Daľšie Basics
+  activerecord:
+    attributes:
+      'refinery/basics/basic':
+        name: Name
+        location: Location
+        content: Content

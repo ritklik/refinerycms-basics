@@ -1,0 +1,29 @@
+it:
+  refinery:
+    plugins:
+      basics:
+        title: Basics
+    basics:
+      admin:
+        basics:
+          actions:
+            create_new: Aggiungi Nuovo Basic
+            reorder: Riordina Basics
+            reorder_done: Termina il Riordino di Basics
+          records:
+            title: Basics
+            sorry_no_results: "Spiacenti! Nessun risultato trovato"
+            no_items_yet: Non ci sono ancora Basics. Clicca "Aggiungi Nuovo Basic" per aggiungere il tuo primo basic.
+          basic:
+            view_live_html: Guarda live questo basic <br/><em>(apre una nuova finestra)</em>
+            edit: Modifica questo basic
+            delete: Rimuovi per sempre questo basic
+      basics:
+        show:
+          other: Altri Basics
+  activerecord:
+    attributes:
+      'refinery/basics/basic':
+        name: Name
+        location: Location
+        content: Content

@@ -1,0 +1,30 @@
+es:
+  refinery:
+    plugins:
+      basics:
+        title: Basics
+#        article: masculino/femenino
+    basics:
+      admin:
+        basics:
+          actions:
+            create_new: Crear nuevo basic
+            reorder: Reordenar basics
+            reorder_done: Reordenación de basics completada
+          records:
+            title: Basics
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay basics todavía. Pulsa en "Crear nuevo Basic" para crear tu primer basic.
+          basic:
+            view_live_html: Ver este basic como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este basic
+            delete: Borrar este basic para siempre
+      basics:
+        show:
+          other: Otros basics
+  activerecord:
+    attributes:
+      'refinery/basics/basic':
+        name: Name
+        location: Location
+        content: Content

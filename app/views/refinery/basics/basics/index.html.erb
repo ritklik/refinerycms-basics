@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="basics">
+    <% @basics.each do |basic| %>
+      <li>
+        <%= link_to basic.name, refinery.basics_basic_path(basic) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

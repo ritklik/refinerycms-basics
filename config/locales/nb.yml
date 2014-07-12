@@ -1,0 +1,29 @@
+nb:
+  refinery:
+    plugins:
+      basics:
+        title: Basics
+    basics:
+      admin:
+        basics:
+          actions:
+            create_new: Lag en ny Basic
+            reorder: Endre rekkefølgen på Basics
+            reorder_done: Ferdig å endre rekkefølgen Basics
+          records:
+            title: Basics
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Basics enda. Klikk på "Lag en ny Basic" for å legge til din første basic.
+          basic:
+            view_live_html: Vis hvordan denne basic ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne basic
+            delete: Fjern denne basic permanent
+      basics:
+        show:
+          other: Andre Basics
+  activerecord:
+    attributes:
+      'refinery/basics/basic':
+        name: Name
+        location: Location
+        content: Content

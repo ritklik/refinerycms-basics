@@ -1,0 +1,25 @@
+<ul>
+  <% if ::Refinery::Basics::Admin::BasicsController.searchable? %>
+    <li>
+      <%= render '/refinery/admin/search', :url => refinery.basics_admin_basics_path %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), refinery.new_basics_admin_basic_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? && ::Refinery::Basics::Admin::BasicsController.sortable? && ::Refinery::Basics::Basic.many? %>
+  <li>
+    <%= link_to t('.reorder', :what => "Basics"),
+                 refinery.basics_admin_basics_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Basics"),
+                 refinery.basics_admin_basics_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>

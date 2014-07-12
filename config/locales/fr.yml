@@ -1,0 +1,29 @@
+fr:
+  refinery:
+    plugins:
+      basics:
+        title: Basics
+    basics:
+      admin:
+        basics:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Basic
+            reorder: Réordonner les Basics
+            reorder_done: Fin de réordonnancement des Basics
+          records:
+            title: Basics
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Basic. Cliquer sur "Créer un(e) nouve(au/l/lle) Basic" pour créer votre premi(er/ère) basic.'
+          basic:
+            view_live_html: Voir ce(t/tte) basic <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) basic
+            delete: Supprimer définitivement ce(t/tte) basic
+      basics:
+        show:
+          other: Autres Basics
+  activerecord:
+    attributes:
+      'refinery/basics/basic':
+        name: Name
+        location: Location
+        content: Content

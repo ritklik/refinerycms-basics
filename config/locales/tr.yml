@@ -1,0 +1,29 @@
+tr:
+  refinery:
+    plugins:
+      basics:
+        title: Basics
+    basics:
+      admin:
+        basics:
+          actions:
+            create_new: Yeni Ekle Basic
+            reorder: Tekrar sirala Basics
+            reorder_done: Tekrar siralama tamamlandiBasics
+          records:
+            title: Basics
+            sorry_no_results: Uzgunum! Herhangi bir sonuc bulunamadi.
+            no_items_yet: Herhangi bir Basics yok henuz.  Tikla "Yeni Ekle Basic" eklemek senin ilk basic.
+          basic:
+            view_live_html: Bunu canlu basic goruntule <br/><em>(yeni bir pencerede acar)</em>
+            edit: Bunu Duzenle basic
+            delete: Bunu Sil basic sonsuza dek
+      basics:
+        show:
+          other: Diger Basics
+  activerecord:
+    attributes:
+      'refinery/basics/basic':
+        name: Name
+        location: Location
+        content: Content

@@ -1,0 +1,31 @@
+zh-CN:
+  refinery:
+    plugins:
+      basics:
+        title: Basics
+    basics:
+      admin:
+        basics:
+          actions:
+            create_new: 建立新的 Basic
+            reorder: 对 Basics 重新排序
+            reorder_done: 对 Basics 的重新排序结束
+          records:
+            title: Basics
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Basics yet. Click "Add New Basic" to add your first basic.
+            no_items_yet: 目前没有 Basics . 点击 "Add New Basic" 创建一个basic.
+          basic:
+            view_live_html: 查看 basic 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 basic
+            delete: 永久删除 basic
+      basics:
+        show:
+          other: 其他 Basics
+  activerecord:
+    attributes:
+      'refinery/basics/basic':
+        name: Name
+        location: Location
+        content: Content
